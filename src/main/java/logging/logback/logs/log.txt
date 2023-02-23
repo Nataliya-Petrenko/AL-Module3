@@ -1,0 +1,114 @@
+2023-02-23 04:38:55,177 INFO org.petrenko.util.UserInput [main] Menu
+2023-02-23 04:38:55,178 INFO org.petrenko.util.UserInput [main] 0  Create random student
+2023-02-23 04:38:55,179 INFO org.petrenko.util.UserInput [main] 1  Find group by name
+2023-02-23 04:38:55,179 INFO org.petrenko.util.UserInput [main] 2  Count students in each group
+2023-02-23 04:38:55,179 INFO org.petrenko.util.UserInput [main] 3  Average assessment each group
+2023-02-23 04:38:55,179 INFO org.petrenko.util.UserInput [main] 4  Student with average assessment more than the given
+2023-02-23 04:38:55,179 INFO org.petrenko.util.UserInput [main] 5  Find teacher by name or surname
+2023-02-23 04:38:55,180 INFO org.petrenko.util.UserInput [main] 6  Subject with the worse and the best average assessment
+2023-02-23 04:38:55,182 INFO org.petrenko.util.UserInput [main] 7  Exit
+2023-02-23 04:38:55,182 INFO org.petrenko.util.UserInput [main] Write what you want to do:
+2023-02-23 04:39:00,524 INFO org.petrenko.util.UserInput [main] User input: 0
+
+2023-02-23 04:39:00,529 INFO org.petrenko.service.Service [main] Service and repositories were created
+
+2023-02-23 04:39:00,641 INFO org.petrenko.service.Service [main] Create and save to BD random student: Student{date and time of entering = 2023.02.23 04:39, group = Group(id=13da74fc-127b-4da3-b5da-513eb26bd61c, name=CS-21)}
+
+2023-02-23 04:39:00,641 INFO org.petrenko.util.UserInput [main] Menu
+2023-02-23 04:39:00,641 INFO org.petrenko.util.UserInput [main] 0  Create random student
+2023-02-23 04:39:00,641 INFO org.petrenko.util.UserInput [main] 1  Find group by name
+2023-02-23 04:39:00,641 INFO org.petrenko.util.UserInput [main] 2  Count students in each group
+2023-02-23 04:39:00,642 INFO org.petrenko.util.UserInput [main] 3  Average assessment each group
+2023-02-23 04:39:00,642 INFO org.petrenko.util.UserInput [main] 4  Student with average assessment more than the given
+2023-02-23 04:39:00,642 INFO org.petrenko.util.UserInput [main] 5  Find teacher by name or surname
+2023-02-23 04:39:00,642 INFO org.petrenko.util.UserInput [main] 6  Subject with the worse and the best average assessment
+2023-02-23 04:39:00,642 INFO org.petrenko.util.UserInput [main] 7  Exit
+2023-02-23 04:39:00,642 INFO org.petrenko.util.UserInput [main] Write what you want to do:
+2023-02-23 04:39:02,977 INFO org.petrenko.util.UserInput [main] User input: 1
+
+2023-02-23 04:39:02,978 INFO org.petrenko.util.UserInput [main] Write the name of the group (in full or in part)
+2023-02-23 04:39:17,962 INFO org.petrenko.util.UserInput [main] User input: C
+
+2023-02-23 04:39:17,990 INFO org.petrenko.service.Service [main] Groups which name include: C - Group(id=13da74fc-127b-4da3-b5da-513eb26bd61c, name=CS-21)
+2023-02-23 04:39:17,990 INFO org.petrenko.service.Service [main] Groups which name include: C - Group(id=1dec8cf8-f843-4eee-ae66-e044d468cfa5, name=CS-25)
+2023-02-23 04:39:17,990 INFO org.petrenko.util.UserInput [main] Menu
+2023-02-23 04:39:17,990 INFO org.petrenko.util.UserInput [main] 0  Create random student
+2023-02-23 04:39:17,990 INFO org.petrenko.util.UserInput [main] 1  Find group by name
+2023-02-23 04:39:17,990 INFO org.petrenko.util.UserInput [main] 2  Count students in each group
+2023-02-23 04:39:17,990 INFO org.petrenko.util.UserInput [main] 3  Average assessment each group
+2023-02-23 04:39:17,990 INFO org.petrenko.util.UserInput [main] 4  Student with average assessment more than the given
+2023-02-23 04:39:17,990 INFO org.petrenko.util.UserInput [main] 5  Find teacher by name or surname
+2023-02-23 04:39:17,990 INFO org.petrenko.util.UserInput [main] 6  Subject with the worse and the best average assessment
+2023-02-23 04:39:17,990 INFO org.petrenko.util.UserInput [main] 7  Exit
+2023-02-23 04:39:17,990 INFO org.petrenko.util.UserInput [main] Write what you want to do:
+2023-02-23 04:39:23,506 INFO org.petrenko.util.UserInput [main] User input: 3
+
+2023-02-23 04:39:23,521 INFO org.petrenko.service.Service [main] Group: CS-25, average assessment: 7.0
+2023-02-23 04:39:23,521 INFO org.petrenko.service.Service [main] Group: IS-21, average assessment: 5.35
+2023-02-23 04:39:23,522 INFO org.petrenko.service.Service [main] Group: CS-21, average assessment: 4.533333333333333
+2023-02-23 04:39:23,522 INFO org.petrenko.service.Service [main] Group: IS-25, average assessment: 6.4
+2023-02-23 04:39:23,522 INFO org.petrenko.util.UserInput [main] Menu
+2023-02-23 04:39:23,522 INFO org.petrenko.util.UserInput [main] 0  Create random student
+2023-02-23 04:39:23,522 INFO org.petrenko.util.UserInput [main] 1  Find group by name
+2023-02-23 04:39:23,522 INFO org.petrenko.util.UserInput [main] 2  Count students in each group
+2023-02-23 04:39:23,522 INFO org.petrenko.util.UserInput [main] 3  Average assessment each group
+2023-02-23 04:39:23,522 INFO org.petrenko.util.UserInput [main] 4  Student with average assessment more than the given
+2023-02-23 04:39:23,522 INFO org.petrenko.util.UserInput [main] 5  Find teacher by name or surname
+2023-02-23 04:39:23,523 INFO org.petrenko.util.UserInput [main] 6  Subject with the worse and the best average assessment
+2023-02-23 04:39:23,523 INFO org.petrenko.util.UserInput [main] 7  Exit
+2023-02-23 04:39:23,523 INFO org.petrenko.util.UserInput [main] Write what you want to do:
+2023-02-23 04:39:29,881 INFO org.petrenko.util.UserInput [main] User input: 4
+
+2023-02-23 04:39:29,881 INFO org.petrenko.util.UserInput [main] Write average assessment
+2023-02-23 04:39:32,082 INFO org.petrenko.util.UserInput [main] User input: 5.0
+
+2023-02-23 04:39:32,117 INFO org.petrenko.service.Service [main] Student: Student{date and time of entering = 2023.07.12 09:40, group = Group(id=885c75f0-7241-4d1d-946f-35fbcb0e86d7, name=IS-25)}, average assessment: 6.1
+2023-02-23 04:39:32,117 INFO org.petrenko.service.Service [main] Student: Student{date and time of entering = 2023.08.13 09:32, group = Group(id=1dec8cf8-f843-4eee-ae66-e044d468cfa5, name=CS-25)}, average assessment: 6.8
+2023-02-23 04:39:32,117 INFO org.petrenko.service.Service [main] Student: Student{date and time of entering = 2023.08.01 09:01, group = Group(id=885c75f0-7241-4d1d-946f-35fbcb0e86d7, name=IS-25)}, average assessment: 6.3
+2023-02-23 04:39:32,117 INFO org.petrenko.service.Service [main] Student: Student{date and time of entering = 2023.08.06 08:41, group = Group(id=885c75f0-7241-4d1d-946f-35fbcb0e86d7, name=IS-25)}, average assessment: 6.8
+2023-02-23 04:39:32,117 INFO org.petrenko.service.Service [main] Student: Student{date and time of entering = 2023.07.26 09:46, group = Group(id=00a6cf5b-1c51-4e5a-ace0-ff23d3d0305d, name=IS-21)}, average assessment: 5.2
+2023-02-23 04:39:32,118 INFO org.petrenko.service.Service [main] Student: Student{date and time of entering = 2023.07.10 12:40, group = Group(id=1dec8cf8-f843-4eee-ae66-e044d468cfa5, name=CS-25)}, average assessment: 7.2
+2023-02-23 04:39:32,118 INFO org.petrenko.service.Service [main] Student: Student{date and time of entering = 2023.07.30 13:45, group = Group(id=00a6cf5b-1c51-4e5a-ace0-ff23d3d0305d, name=IS-21)}, average assessment: 5.5
+2023-02-23 04:39:32,118 INFO org.petrenko.util.UserInput [main] Menu
+2023-02-23 04:39:32,119 INFO org.petrenko.util.UserInput [main] 0  Create random student
+2023-02-23 04:39:32,119 INFO org.petrenko.util.UserInput [main] 1  Find group by name
+2023-02-23 04:39:32,119 INFO org.petrenko.util.UserInput [main] 2  Count students in each group
+2023-02-23 04:39:32,119 INFO org.petrenko.util.UserInput [main] 3  Average assessment each group
+2023-02-23 04:39:32,119 INFO org.petrenko.util.UserInput [main] 4  Student with average assessment more than the given
+2023-02-23 04:39:32,119 INFO org.petrenko.util.UserInput [main] 5  Find teacher by name or surname
+2023-02-23 04:39:32,119 INFO org.petrenko.util.UserInput [main] 6  Subject with the worse and the best average assessment
+2023-02-23 04:39:32,119 INFO org.petrenko.util.UserInput [main] 7  Exit
+2023-02-23 04:39:32,120 INFO org.petrenko.util.UserInput [main] Write what you want to do:
+2023-02-23 04:39:43,591 INFO org.petrenko.util.UserInput [main] User input: 5
+
+2023-02-23 04:39:43,592 INFO org.petrenko.util.UserInput [main] Write the name or the surname of the teacher (in full or in part)
+2023-02-23 04:39:47,155 INFO org.petrenko.util.UserInput [main] User input: ka
+
+2023-02-23 04:39:47,164 INFO org.petrenko.service.Service [main] Teachers which firstname or surname include: ka - Teacher{firstname: Ira, surname: Tkach, age: 47, subject=Subject(id=35f3ea8a-1d26-457f-aeca-5daecd73d81e, name=Business Process Modeling)}
+2023-02-23 04:39:47,168 INFO org.petrenko.util.UserInput [main] Menu
+2023-02-23 04:39:47,168 INFO org.petrenko.util.UserInput [main] 0  Create random student
+2023-02-23 04:39:47,168 INFO org.petrenko.util.UserInput [main] 1  Find group by name
+2023-02-23 04:39:47,168 INFO org.petrenko.util.UserInput [main] 2  Count students in each group
+2023-02-23 04:39:47,168 INFO org.petrenko.util.UserInput [main] 3  Average assessment each group
+2023-02-23 04:39:47,168 INFO org.petrenko.util.UserInput [main] 4  Student with average assessment more than the given
+2023-02-23 04:39:47,168 INFO org.petrenko.util.UserInput [main] 5  Find teacher by name or surname
+2023-02-23 04:39:47,168 INFO org.petrenko.util.UserInput [main] 6  Subject with the worse and the best average assessment
+2023-02-23 04:39:47,168 INFO org.petrenko.util.UserInput [main] 7  Exit
+2023-02-23 04:39:47,168 INFO org.petrenko.util.UserInput [main] Write what you want to do:
+2023-02-23 04:40:00,711 INFO org.petrenko.util.UserInput [main] User input: 6
+
+2023-02-23 04:40:00,718 INFO org.petrenko.service.Service [main] Subject: Network Administration, average assessment: 7.8
+2023-02-23 04:40:00,718 INFO org.petrenko.service.Service [main] Subject: Machine Learning, average assessment: 4.9
+2023-02-23 04:40:00,719 INFO org.petrenko.util.UserInput [main] Menu
+2023-02-23 04:40:00,719 INFO org.petrenko.util.UserInput [main] 0  Create random student
+2023-02-23 04:40:00,719 INFO org.petrenko.util.UserInput [main] 1  Find group by name
+2023-02-23 04:40:00,719 INFO org.petrenko.util.UserInput [main] 2  Count students in each group
+2023-02-23 04:40:00,719 INFO org.petrenko.util.UserInput [main] 3  Average assessment each group
+2023-02-23 04:40:00,719 INFO org.petrenko.util.UserInput [main] 4  Student with average assessment more than the given
+2023-02-23 04:40:00,719 INFO org.petrenko.util.UserInput [main] 5  Find teacher by name or surname
+2023-02-23 04:40:00,719 INFO org.petrenko.util.UserInput [main] 6  Subject with the worse and the best average assessment
+2023-02-23 04:40:00,720 INFO org.petrenko.util.UserInput [main] 7  Exit
+2023-02-23 04:40:00,720 INFO org.petrenko.util.UserInput [main] Write what you want to do:
+2023-02-23 04:40:07,483 INFO org.petrenko.util.UserInput [main] User input: 7
+
+2023-02-23 04:40:07,483 INFO org.petrenko.action.ExitAction [main] The program has finished working
